@@ -1,6 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import hero1 from '../hero1.jpg';
+import hero2 from '../hero2.jpg';
 import hero from '../hero.png';
 import image1 from '../image1.png'
 import image2 from '../image2.jpg'
@@ -13,15 +15,15 @@ const Hero = () => {
                 <Row className='align-items-center'>
                     <Col lg={6} md={12}>
                         <div className=' hero-textarea'>
-                            <h4 className='txt-color-two mt-5 text-success'>DISTANCE LEARNING..</h4>
-                            <h2 className='text-success fw-bold'>Feel Like You Are Attending Your <br /> classNamees Physically!</h2>
-                            <p className='text-primary'>Vdemy training programs can bring you a super exciting experience <br /> of learning through online! You never face any negative experience <br /> while enjoying your classNamees virtually by sitting in your comfort zone.<br /> Our  flexible learning initiatives will help you to learn better and quicker <br /> than the  traditional ways of learning skills.</p>
+                            <h4 className='txt-color-two mt-5 text-primary' style={{fontFamily:'Handlee',fontSize:'35px'}}>DISTANCE LEARNING..</h4>
+                            <h2 className='text-primary fw-bold' style={{fontFamily:'Concert One',fontSize:'40px'}}>Feel Like You Are Attending Your <br /> classNamees Physically!</h2>
+                            <p className='text-primary'  style={{fontFamily:'Concert One'}}>Vdemy training programs can bring you a super exciting experience <br /> of learning through online! You never face any negative experience <br /> while enjoying your classNamees virtually by sitting in your comfort zone.<br /> Our  flexible learning initiatives will help you to learn better and quicker <br /> than the  traditional ways of learning skills.</p>
                             <Link to='/courses' className='btn btn-secondary mt-3'>Explore</Link>
                         </div>
                     </Col>
                     <Col lg={6} md={12}>
                         <div className='hero-img-area'>
-                            <img src={hero} alt="banner" />
+                            <img src={hero2} alt="banner" />
                         </div>
                     </Col>
                 </Row>

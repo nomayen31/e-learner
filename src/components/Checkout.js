@@ -48,7 +48,7 @@ const Checkout = () => {
                                 </tr>
                                 <tr>
                                     <td>Category Name</td>
-                                    <td>{category_name}</td>
+                                    <td>{title}</td>
 
                                 </tr>
                                 <tr>

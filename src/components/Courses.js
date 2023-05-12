@@ -25,7 +25,7 @@ const Courses = () => {
                     {/* </div> */}
                     <Col lg={8}>
                         <div ref={ref} style={{ width: '90%', paddingLeft: '20px', paddingTop: '50px' }}>
-                            <h2 className='mb-3'>Category : <span className='txt-color-two'>{category_name}</span></h2>
+                            <h2 className='mb-3'>Category :{title} <span className='txt-color-two'>{category_name}</span></h2>
                             <h3>Course Description</h3>
                             <p>{details}</p>
                         </div>

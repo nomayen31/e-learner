@@ -10,7 +10,7 @@ const Footer = () => {
                 <p className=" mb-0">&copy;nomayen hossain</p>
 
                 <Link to="/" className='logo'>
-                    <img src={siteLogo} width="50" alt="E-Academy" /> My-learnar
+                    <img src={siteLogo} width="50" alt="E-Academy" /> My-learner
                 </Link>
 
             </footer>
